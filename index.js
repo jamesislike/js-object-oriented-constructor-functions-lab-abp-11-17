@@ -1,5 +1,5 @@
 
-function scooter (year, color, model){
+function Scooter (year, color, model){
   this.year = year
   this.color = color
   this.model = model
@@ -7,7 +7,7 @@ function scooter (year, color, model){
 
 //let harley = new Scooter(2001,'yello','davidson')
 
-function driver(name, age, experience){
+function Driver(name, age, experience){
   this.name = name
   this.experience = experience
   this.age = age
